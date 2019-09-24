@@ -6,7 +6,7 @@ span[epub|type~="subtitle"]{
 	font-weight: normal;
 }
 
-p[epub|type~="z3998:diary-entry"]{
+blockquote[epub|type~="z3998:diary"] p[epub|type~="z3998:diary-entry"]{
 	margin-top: 0.5em;
 	text-indent: 0;
 }
@@ -32,6 +32,11 @@ figure.full-page{
 	text-align: center;
 }
 
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
 figure img{
 	display: block;
 	margin: auto;
@@ -46,4 +51,17 @@ figcaption{
 	font-size: .75em;
 	font-style: italic;
 	margin: 1em;
+}
+
+blockquote[epub|type~="z3998:letter"] header[epub|type~="se:letter.dateline"]{
+	text-align: right;
+	font-style: italic;
+}
+
+blockquote[epub|type~="z3998:letter"] footer{
+	text-align: right;
+}
+
+blockquote[epub|type~="z3998:letter"] footer p[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }
