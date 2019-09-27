@@ -65,3 +65,15 @@ blockquote[epub|type~="z3998:letter"] footer{
 blockquote[epub|type~="z3998:letter"] footer p[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
+
+table{
+	width: 100%;
+}
+
+td.num{
+	text-align: right;
+}
+
+td.alpha{
+	text-align: left;
+}
