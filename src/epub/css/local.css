@@ -59,11 +59,17 @@ blockquote[epub|type~="z3998:letter"] header[epub|type~="se:letter.dateline"]{
 }
 
 blockquote[epub|type~="z3998:letter"] footer{
+	padding-top: 1em;
 	text-align: right;
 }
 
 blockquote[epub|type~="z3998:letter"] footer p[epub|type~="z3998:signature"]{
 	font-variant: small-caps;
+}
+
+blockquote[epub|type~="z3998:letter"] footer p[epub|type~="z3998:postscript"]{
+	padding-top: 1em;
+	text-align: left;
 }
 
 table{
