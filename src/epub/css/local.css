@@ -92,11 +92,13 @@ footer{
 }
 
 table{
+	padding-top: 1em;
 	width: 100%;
 }
 
 td.num{
 	text-align: right;
+	font-variant-numeric: tabular-nums;
 }
 
 td.alpha{
