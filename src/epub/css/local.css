@@ -85,6 +85,14 @@ footer{
 	font-variant: small-caps;
 }
 
+[epub|type~="z3998:introduction"] {
+	text-align: left;
+}
+
+[epub|type~="epigraph"] {
+	text-align: left;
+}
+
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
 	text-indent: 0;
