@@ -74,7 +74,7 @@ footer{
 }
 
 [epub|type~="z3998:salutation"],
-[epub|type~="z3998:signature"]{
+.signature{
 	font-variant: small-caps;
 }
 
