@@ -92,6 +92,10 @@ footer{
 	text-align: left;
 }
 
+[epub|type~="se:letter.dateline"]{
+	padding-bottom: 0.5em;
+}
+
 table{
 	padding-top: 1em;
 	width: 100%;
