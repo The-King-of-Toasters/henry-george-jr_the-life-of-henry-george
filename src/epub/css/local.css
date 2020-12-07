@@ -29,6 +29,10 @@ span[epub|type~="subtitle"]{
 	text-indent: 0;
 }
 
+[epub|type~="bridgehead"] i{
+	font-style: normal;
+}
+
 figure.full-page{
 	margin: 0;
 	max-height: 100%;
