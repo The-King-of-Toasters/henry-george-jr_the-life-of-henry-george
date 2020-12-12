@@ -186,6 +186,12 @@ footer{
 	text-align: left;
 }
 
+[epub|type~="z3998:sender"]{
+	margin-top: 1em;
+	text-indent: 0;
+	text-align: left;
+}
+
 [epub|type~="se:letter.dateline"]{
 	padding-bottom: 0.5em;
 }
