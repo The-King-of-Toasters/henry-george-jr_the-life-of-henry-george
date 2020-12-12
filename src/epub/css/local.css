@@ -207,3 +207,7 @@ td.alpha{
 td.underline{
 	border-bottom: 1px solid;
 }
+
+abbr.acronym{
+	font-variant: all-small-caps;
+}
